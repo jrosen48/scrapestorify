@@ -1,0 +1,19 @@
+Package: scrapestorify
+Type: Package
+Title: Scrape data from Storify.
+Version: 0.1.0
+Author: Joshua M. Rosenberg
+Maintainer: Joshua Rosenberg <jmichaelrosenberg@gmail.com>
+Description: This package makes it simple to scrape Twitter data from Storify
+    using the Storify API.
+License: MIT.
+LazyData: TRUE
+Imports:
+    rvest,
+    stringr,
+    jsonlite,
+    lubridate,
+    plyr,
+    httr,
+    xml2
+RoxygenNote: 5.0.1
